@@ -1,0 +1,25 @@
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #000000;
+  --primary-foreground: #ffffff;
+  --secondary: #f1f5f9;
+  --secondary-foreground: #0f172a;
+  --accent: #f1f5f9;
+  --accent-foreground: #0f172a;
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --border: #e2e8f0;
+
+  /* Alpha Colors */
+  --primary-alpha: #00000080;
+  --secondary-alpha: #f1f5f980;
+  --accent-alpha: #f1f5f980;
+
+  /* Border Radius */
+  --radius-sm: 2;
+  --radius-md: 4;
+  --radius-lg: 8;
+  --radius-full: 9999;
+}
